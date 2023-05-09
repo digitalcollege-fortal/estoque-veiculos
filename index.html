@@ -9,14 +9,23 @@
         <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     </head>
     <body>
-        <button class="btn btn-primary">Cadastro</button>
-        <button class="btn btn-primary">Login</button>
-        <button class="btn btn-primary">Relatórios</button>
+        <button onclick="load('add')" class="btn btn-primary">Cadastro</button>
+        <button onclick="load('login')" class="btn btn-primary">Login</button>
+        <button onclick="load('report')" class="btn btn-primary">Relatórios</button>
+        <button onclick="load('list')" class="btn btn-primary">Listar</button>
+        
 
-        <hr>
+        <hr>    
 
         <main id="content"></main>
 
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script src="js/pages/add.js"></script>
+        <script src="js/pages/login.js"></script>
+        <script src="js/pages/report.js"></script>
+        <script src="js/pages/list.js"></script>
+
+        <script src="js/index.js"></script>
     </body>
 </html>
