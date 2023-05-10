@@ -8,6 +8,8 @@ function list() {
                         <td>${cada.id}</td>
                         <td>${cada.marca}</td>
                         <td>${cada.modelo}</td>
+                        <td>${cada.placa}</td>
+                        <td><img width="100px" src="${cada.foto}"></td>
                     </tr>    
                 `; 
             })
